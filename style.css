@@ -564,47 +564,26 @@ section h2{
 }
 
 
-}.logo{
+.logo{
+    font-size:30px;
+    font-weight:bold;
+    color:#00aaff;
+    letter-spacing:2px;
+}
 
-font-size:30px;
-
-font-weight:bold;
-
-color:#00aaff;
-
-letter-spacing:2px;
 header h1{
-font-size:30px;
+    font-size:30px;
+    font-weight:bold;
+    background:linear-gradient(
+    90deg,
+    #00aaff,
+    #00ff88,
+    #ff00aa,
+    #00aaff
+    );
 
-font-weight:bold;
-
-background:linear-gradient(
-90deg,
-#00aaff,
-#00ff88,
-#ff00aa,
-#00aaff
-);
-
-background-size:300%;
-
--webkit-background-clip:text;
-
-color:transparent;
-
-animation: colorMove 4s linear infinite;
-
-}
-
-
-@keyframes colorMove{
-
-0%{
-background-position:0%;
-}
-
-100%{
-background-position:300%;
-}
-
+    background-size:300%;
+    -webkit-background-clip:text;
+    color:transparent;
+    animation:colorMove 4s linear infinite;
 }
